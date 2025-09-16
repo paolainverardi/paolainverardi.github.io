@@ -645,6 +645,29 @@ section,
   margin-bottom: 10px;
 }
 
+.fellowship-title {
+    color: var(--heading-color);
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.fellowship-item {
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    position: relative;
+}
+
+.fellowship-item h4 {
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: color-mix(in srgb, var(--default-color), transparent 20%);
+    margin-bottom: 10px;
+}
+
 .about .about-item h5 {
   font-size: 16px;
   padding: 5px 15px;
@@ -843,6 +866,62 @@ section,
   font-size: 14px;
 }
 
+/*--------------------------------------------------------------
+# Pubblications Section
+--------------------------------------------------------------*/
+.pubblications .pubblication-item {
+    position: relative;
+}
+
+.pubblications .pubblication-item .icon {
+    background: var(--accent-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    transition: 0.5s;
+    border: 1px solid var(--accent-color);
+    margin-right: 20px;
+}
+
+.pubblications .pubblication-item .icon i {
+    color: var(--contrast-color);
+    font-size: 16px;
+    line-height: 0;
+}
+
+.pubblications .pubblication-item:hover .icon {
+    background: var(--surface-color);
+}
+
+.pubblications .pubblication-item:hover .icon i {
+    color: var(--accent-color);
+}
+
+.pubblications .pubblication-item .title {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.pubblications .pubblication-item .title a {
+    color: var(--heading-color);
+}
+
+.pubblications .pubblication-item .title a:hover {
+    color: var(--accent-color);
+}
+
+.pubblications .pubblication-item .authors {
+    line-height: 24px;
+    font-size: 16px;
+}
+.pubblications .pubblication-item .venue {
+    line-height: 24px;
+    font-size: 16px;
+}
 /*--------------------------------------------------------------
 # Phd Students Section
 --------------------------------------------------------------*/
